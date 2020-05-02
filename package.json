@@ -1,0 +1,26 @@
+{
+  "name": "server-side-rendering-with-nextjs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/jrbytes/server-side-rendering-with-nextjs.git",
+  "author": "Jr Bytes <itamazor@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "next": "7.0.1",
+    "next-routes": "1.4.2",
+    "react": "16.5.2",
+    "react-dom": "16.5.2",
+    "react-ga": "^2.7.0",
+    "styled-components": "3.4.9"
+  },
+  "scripts": {
+    "dev": "node server.js",
+    "start": "NODE_ENV=production node server.js",
+    "build": "next build"
+  },
+  "devDependencies": {
+    "babel-plugin-root-import": "^6.5.0",
+    "babel-plugin-styled-components": "^1.10.7"
+  }
+}
